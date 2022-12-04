@@ -49,8 +49,6 @@ function Chat(props) {
       const n = sessionStorage.getItem('chanid');
       const request = await axios.get(`https://web-production-b59e.up.railway.app/community/channels/chats/${n}`);
       setChats(request.data);
-      var Racon2 = document.getElementById('Racon2');
-      Racon2.scrollTop = Racon2.scrollHeight;
     }
       
     GetChatData();
@@ -96,7 +94,7 @@ function Chat(props) {
         <div className={styles.Racon3}>
           {props.active ? 
           <>
-          <textarea placeholder='Type a message...' id="tid" onSelect={() => ShowSendBt()} onPointerLeave={() => HideSendBt()} onChangeCapture={() => HideSendBt()}></textarea>
+          <textarea placeholder='Type a message...' id="tid" onSelect={() => ShowSendBt()} onPointerLeave={() => HideSendBt()} onChange={() => HideSendBt()}></textarea>
           <div id='sendbt' onClick={() => SendMsg()}><FontAwesomeIcon icon={faPlay}/></div>
           </>
           :

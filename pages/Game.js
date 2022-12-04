@@ -103,7 +103,7 @@ function Game() {
             <span onClick={() => CloseGame()}><FontAwesomeIcon icon={faCircleXmark}/></span>
         </div>
         <div className={styles.Gcon02}>
-            <iframe seamless="seamless" allowtransparency="true" src={gameurl}> </iframe>
+            <iframe src={gameurl}> </iframe>
         </div>
     </div>
     </>
