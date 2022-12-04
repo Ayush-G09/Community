@@ -152,7 +152,7 @@ export default function Home() {
               <input type="password" placeholder="Password" id="loginpassid"></input>
             </div>
             <div className={styles.loginbtn} onClick={() => loginclick()}><h2>Login</h2></div>
-            <div className={styles.notaccount} onClick={() => SignupForm()}>Did't have an account / Signup</div>
+            <div className={styles.notaccount} onClick={() => SignupForm()}>Didt have an account / Signup</div>
           </form>
         </div>
         <div className={styles.signupform} id="signupform">
@@ -267,7 +267,7 @@ export default function Home() {
           <div style={{backgroundImage: `url(${organization.src})`}} className={styles.cardimg}></div>
           <div className={styles.cardcontent}>
             <h2>Organization community !</h2>
-            <span>Oorganization communities to make organization's people connect.</span>
+            <span>Oorganization communities to make organizations people connect.</span>
           </div>
         </div>
 
