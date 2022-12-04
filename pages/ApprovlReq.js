@@ -13,7 +13,6 @@ function ApprovlReq() {
   const [name, setName] = useState('');
   const [description, setDescription] = useState('');
   const [Id, setId] = useState('');
-  var sarr = [];
 
   var headers = {
     'Authorization': `Bearer ${sessionStorage.getItem("access")}`
@@ -22,7 +21,7 @@ function ApprovlReq() {
   useEffect(() => {
     async function fetchCommunity() {
       const request = await axios.get('https://web-production-b59e.up.railway.app/community/')
-      sarr = [];
+      var sarr = [];
       for(var a = 0; a < request.data.length; a++){
         if(request.data[a].approved === false)
         {
