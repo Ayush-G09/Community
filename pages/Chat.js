@@ -63,7 +63,7 @@ function Chat(props) {
               <img className={styles.Image} src='https://i.pinimg.com/736x/e4/3e/4c/e43e4cd41ddffc21d2e6600dfca20306--logo-software-logotype.jpg'></img>
             </div>
           </div>
-          <div className={styles.Racon12}>CSS</div>
+          <div className={styles.Racon12}>{sessionStorage.getItem('channame')}</div>
           <div className={styles.Racon13}>
             <FontAwesomeIcon icon={faXmark} onClick={() => props.close()}/>
           </div>

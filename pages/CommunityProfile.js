@@ -39,7 +39,7 @@ function CommunityProfile(props) {
       <div className={styles.Cpconc}>
         {chdata.map((item, index) => {
           return(
-            <div className={styles.Cpconcd} key={index} onClick={() => {props.selectChat(); props.msg(Check(index)); sessionStorage.setItem('chanid', item.channel_id)}}>
+            <div className={styles.Cpconcd} key={index} onClick={() => {props.selectChat(); props.msg(Check(index)); sessionStorage.setItem('chanid', item.channel_id); sessionStorage.setItem('channame', item.channel_name)}}>
               <div><FontAwesomeIcon icon={faNetworkWired}/></div>
                <span>{item.channel_name}</span>
             </div>
