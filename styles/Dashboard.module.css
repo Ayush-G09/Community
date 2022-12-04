@@ -1,0 +1,17 @@
+.maincon{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+    /*background-color: #e5e5e5;*/
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+/* 
+#4d4d4d
+#3c3c3c
+#1e1e1e
+#111111
+black
+*/

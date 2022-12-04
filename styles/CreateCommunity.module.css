@@ -1,0 +1,250 @@
+.Cccon{
+    height: 98%;
+    width: 79%;
+    background-color: #111111;
+    border-radius: 20px;
+    overflow: hidden;
+    transition: 0.2s all ease;
+    display: flex;
+    flex-direction: column;
+}
+
+.Ccconh{
+    height: 10%;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+
+.Ccconhi{
+    width: 10%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Ccconhi div{
+    width: 4vw;
+    height: 4vw;
+    border-radius: 50%;
+    border: 2px solid white;
+    font-size: 1.5rem;
+    color: #1589FF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Ccconh span{
+    width: 85%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    font-size: 2rem;
+    color: #1589FF;
+}
+
+.Ccconhx{
+    width: 5%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: red;
+    font-size: 2rem;
+}
+
+.Ccconf{
+    width: 100%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+}
+
+.Ccconf1{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.Ccconf1 label{
+    width: 70%;
+    height: 40%;
+    display: flex;
+    align-items: center;
+    margin-left: 10%;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #1589FF;
+}
+
+.Ccconf1 input{
+    width: 50%;
+    height: 35%;
+    outline: none;
+    border: 2px solid #1589FF;
+    border-radius: 10px;
+    margin-left: 10%;
+    padding-left: 1%;
+    padding-right: 1%;
+    font-size: 1.3rem;
+    color: black;
+}
+
+.Ccconf2{
+    width: 100%;
+    height: 30%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.Ccconf2 label{
+    width: 70%;
+    height: 20%;
+    display: flex;
+    align-items: center;
+    margin-left: 10%;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #1589FF;
+}
+
+.Ccconf2 textarea{
+    width: 50%;
+    height: 70%;
+    outline: none;
+    border: 2px solid #1589FF;
+    border-radius: 10px;
+    margin-left: 10%;
+    padding: 1%;
+    font-size: 1.3rem;
+    color: black;
+    resize: none;
+}
+
+.Ccconf2 textarea::-webkit-scrollbar{
+    display: none;
+}
+
+.Ccconf3{
+    width: 100%;
+    height: 35%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Ccconf31{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.Ccconf311{
+    width: 8vw;
+    height: 8vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px dashed #fefefe;
+    border-radius: 10px;
+    color: #1589FF;
+    font-size: 3rem;
+    position: relative;
+    overflow: hidden;
+}
+
+.Ccconf311 img{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    outline: none;
+    border: none;
+}
+
+.Ccconf311p{
+    width: 15vw;
+    height: 8vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px dashed #fefefe;
+    border-radius: 10px;
+    color: #1589FF;
+    font-size: 3rem;
+    position: relative;
+    overflow: hidden;
+}
+
+.Ccconf311p img{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    outline: none;
+    border: none;
+}
+
+.Ccconf312{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fefefe;
+}
+
+.Ccconf312 input{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #1589FF;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.Ccconf313{
+    width: 100%;
+    height: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #1589FF;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.Ccconf4{
+    width: 100%;
+    height: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Ccconf4 div{
+    width: 18%;
+    height: 60%;
+    background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 1.3rem;
+    font-weight: bold;
+}

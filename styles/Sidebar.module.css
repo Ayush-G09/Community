@@ -1,0 +1,269 @@
+.Sbcon{
+    height: 100%;
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Sbmcon{
+    height: 98%;
+    width: 90%;
+    background-color: black;
+    border-radius: 20px;
+    overflow: hidden;
+    padding: 0;
+}
+
+.Sbmcon0{
+    width: 100%;
+    height: 8%;
+    display: flex;
+}
+
+.Sbmcon01{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Sbmcon01 img{
+    height: 60%;
+}
+
+.Sbmcon02{
+    width: 70%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    color: #1589FF;
+    font-size: 1.7rem;
+}
+
+.Sbmcon1{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    overflow: hidden;
+    overflow-y: scroll;
+    flex-direction: column;
+}
+
+.Sbmcon1::-webkit-scrollbar{
+    display: none;
+}
+
+.Sbmcon10{
+    width: 100%;
+    min-height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Sbmcon11{
+    width: 90%;
+    height: 90%;
+    background-color: black;
+    display: flex;
+    border-radius: 10px;
+    overflow: hidden;
+    color: white;
+}
+
+.Sbmcon11:hover{
+    background-color: #1e1e1e;
+}
+
+.Sbmcon111{
+    width: 20%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Sbmcon111 div{
+    width: 2.4rem;
+    height: 2.4rem;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid white;
+    overflow: hidden;
+    color: #1589FF;
+}
+
+.Sbmcon112{
+    width: 80%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding-left: 5%;
+    padding-right: 5%;
+    overflow: hidden;
+    font-size: 1.2rem;
+}
+
+.Sbmcon10a{
+    width: 100%;
+    min-height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Sbmcon11a{
+    width: 90%;
+    height: 90%;
+    display: flex;
+    border-radius: 10px;
+    overflow: hidden;
+    color: white;
+}
+
+.Sbmcon11b{
+    width: 90%;
+    height: 90%;
+    background-color: black;
+    display: flex;
+    border-radius: 10px;
+    overflow: hidden;
+    color: white;
+}
+
+.Sbmcon111a{
+    width: 20%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Sbmcon111b{
+    width: 20%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Sbmcon111a div{
+    width: 2.4rem;
+    height: 2.4rem;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid white;
+    overflow: hidden;
+    color: #1589FF;
+    background-color: black;
+}
+
+.Sbmcon111b div{
+    width: 2.4rem;
+    height: 2.4rem;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid white;
+    overflow: hidden;
+    color: #08f26e;
+    background-color: black;
+}
+
+.Sbmcon112a{
+    width: 80%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding-left: 5%;
+    padding-right: 5%;
+    overflow: hidden;
+    font-size: 1.2rem;
+}
+
+.Sbmcon2{
+    width: 100%;
+    height: 12%;
+    display: flex;
+}
+
+.Sbmcon21{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.Sbmcon21 div{
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid white;
+}
+
+.Sbmcon22{
+    width: 55%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    font-size: 1rem;
+    color: white;
+    padding-left: 0%;
+    overflow: hidden;
+}
+
+.Sbmcon23{
+    width: 15%;
+    height: 100%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+}
+
+.Sbmcon23:hover{
+    font-size: 1.4rem;
+}
+
+.Image{
+    width: 110%;
+    height: 110%;
+    background-size: contain;
+}
+
+.Sbmcon1ccbtcon{
+    width: 100%;
+    min-height: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Sbmcon1ccbtcon div{
+    width: 80%;
+    height: 70%;
+    background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+    border-radius: 10px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.3rem;
+    font-weight: bold;
+}

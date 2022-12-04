@@ -1,0 +1,268 @@
+.Arcon{
+    height: 98%;
+    width: 79%; /*79*/
+    background-color: #111111;
+    border-radius: 20px;
+    overflow: hidden;
+    transition: 0.2s all ease;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+    overflow-y: scroll;
+    transition: all 0.2s ease;
+}
+
+.Arcon::-webkit-scrollbar{
+    display: none;
+}
+
+.Arcon1{
+    width: 90%;
+    height: 13vh;
+    background-color: #f6f6f6;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0px 4px 12px 4px black;
+    margin-bottom: 2%;
+    display: flex;
+}
+
+.Gcon1{
+    width: 100%;
+    height: 10%;
+    background-color: black;
+    display: flex;
+    margin-bottom: 2%;
+}
+
+.Gcon11{
+    width: 10%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Gcon11 div{
+    width: 3.8rem;
+    height: 3.8rem;
+    border: 2px solid white;
+    border-radius: 50%;
+    overflow: hidden;
+    color: #1589FF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+}
+
+.Gcon12{
+    width: 90%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    color: #1589FF;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.Arcon10{
+    width: 13%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Arcon10 div{
+    width: 5rem; /*6*/
+    height: 5rem;
+    background-color: black;
+    border-radius: 50%;
+    border: 2px solid black;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Arcon11{
+    width: 62%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.Arcon111{
+    width: 100%;
+    max-height: 40%;
+    display: flex;
+    align-items: center;
+    font-size: 1.6rem;
+    font-weight: 600;
+}
+
+.Arcon112{
+    width: 100%;
+    max-height: 59%;
+    display: flex;
+    align-items: center;
+    font-size: 1rem;
+    color: #3c3c3c;
+}
+
+.Arcon112 span{
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+.Arcon12{
+    width: 25%;
+    height: 100%;
+    display: flex;
+}
+
+.Arcon121{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FF3131;
+    font-size: 2rem;
+}
+
+.Arcon122{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #08f26e;
+    font-size: 2rem;
+}
+
+.Image{
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+}
+
+.Arcon0{
+    width: 29%;
+    height: 98%;
+    background-color: black;
+    border-radius: 20px;
+    margin-left: 1%;
+    overflow: hidden;
+    display: none;
+    flex-direction: column;
+    transition: all 0.2s ease;
+}
+
+.Arcon01{
+    width: 100%;
+    height: 30%;
+    background-color: black;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 2px solid #1589FF;
+}
+
+.Arcon011{
+    width: 9rem;
+    height: 9rem;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    top: 65%;
+    border: 2px solid #1589FF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.Arcon012{
+    width: 2rem;
+    height: 2rem;
+    background-color: black;
+    border-radius: 10px;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FF3131;
+    font-size: 1.5rem;
+    right: 3%;
+    top: 5%;
+    border: 2px solid #FF3131;
+}
+
+.Arcon02{
+    width: 100%;
+    height: 10%;
+}
+
+.Arcon03{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #1589FF;
+    font-size: 2rem;
+}
+
+.Arcon04{
+    width: 100%;
+    height: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Arcon04 span{
+    width: 98%;
+    height: 100%;
+    text-align: center;
+    overflow: hidden;
+    overflow-y: scroll;
+    font-size: 1rem;
+    color: white;
+}
+
+.Arcon04 span::-webkit-scrollbar{
+    display: none;
+}
+
+.Arcon05{
+    width: 100%;
+    height: 20%;
+    display: flex;
+}
+
+.Arcon051{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FF3131;
+    font-size: 3.5rem;
+}
+
+.Arcon052{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #08f26e;
+    font-size: 3.5rem;
+}

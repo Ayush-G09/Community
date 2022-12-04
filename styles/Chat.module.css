@@ -1,0 +1,207 @@
+.Racon{
+    height: 98%;
+    width: 79%;
+    background-color: #111111;
+    border-radius: 20px;
+    overflow: hidden;
+    transition: 0.2s all ease;
+}
+
+.Racon1{
+    width: 100%;
+    height: 10%;
+    background-color: black;
+    display: flex;
+}
+
+.Racon11{
+    width: 10%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Racon11 div{
+    width: 3.8rem;
+    height: 3.8rem;
+    border: 2px solid white;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.Racon12{
+    width: 85%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    color: #1589FF;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.Racon13{
+    width: 5%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #1589FF;
+    font-size: 1.5rem;
+}
+
+.Racon2{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    padding-top: 0;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+
+.Racon2::-webkit-scrollbar{
+    display: none;
+}
+
+.MsgBl{
+    max-width: 70%;
+    min-height: 6%;
+    background-color: #4d4d4d;
+    color: white;
+    border-radius: 10px;
+    align-self: flex-start;
+    margin-top: 3%;
+    padding: 12px;
+    font-size: 1.4vw;
+    display: flex;
+    align-items: center;
+}
+
+.MsgBr{
+    max-width: 70%;
+    min-height: 6%;
+    background-color: #4d4d4d;
+    color: white;
+    border-radius: 10px;
+    align-self: flex-end;
+    margin-top: 4%;
+    padding: 12px;
+    font-size: 1.4vw;
+    display: flex;
+    align-items: center;
+}
+
+.MsgCl{
+    width: 70%;
+    height: 8%;
+    display: flex;
+    padding-right: 10px;
+    align-items: center;
+    color: #08f26e;
+    font-size: 1.3vw;
+    align-self: flex-start;
+    justify-content: flex-start;
+}
+
+.MsgUIl{
+    width: 2.5vw;
+    height: 2.5vw;
+    border: 3px solid #08f26e;
+    background-color: black;
+    color: #08f26e;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1vw;
+    margin-right: 1%;
+    margin-top: 0.5%;
+}
+
+.MsgCr{
+    width: 70%;
+    height: 8%;
+    display: flex;
+    padding-left: 10px;
+    align-items: center;
+    color: #1589FF;
+    font-size: 1.3vw;
+    align-self: flex-end;
+    justify-content: flex-end;
+}
+
+.MsgUIr{
+    width: 2.5vw;
+    height: 2.5vw;
+    border: 3px solid #1589FF;
+    background-color: black;
+    color: #1589FF;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1vw;
+    margin-left: 1%;
+    margin-top: 0.5%;
+}
+
+.Racon3{
+    width: 100%;
+    height: 10%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Racon3 textarea{
+    width: 85%;
+    height: 75%;
+    background-color: #4d4d4d;
+    resize: none;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    font-size: 1.2rem;
+    color: white;
+    padding: 15px;
+}
+
+.Racon3 textarea::-webkit-scrollbar{
+    display: none;
+}
+
+.Racon3 textarea::placeholder{
+    color: white;
+}
+
+.Racon3 div{
+    width: 3rem;
+    height: 3rem;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    color: #08f26e;
+    font-size: 1.5rem;
+    border-radius: 5px;
+    margin-left: 1%;
+}
+
+.Racon3 span{
+    width: 15%;
+    height: 70%;
+    background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+/*Profile box*/
+
